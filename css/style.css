@@ -1,0 +1,60 @@
+body
+{
+  background-image: linear-gradient(to left ,#285399, #dce1eb );
+}
+  #regForm {
+    background-color: #ffffff;
+    margin: 100px auto;
+    padding: 40px;
+    border-radius: 20px;
+    width: 70%;
+    min-width: 300px;
+  }
+  input::placeholder
+  {
+    color: #285399;
+    font-family: sans-serif;
+    font-weight: 400;
+  }
+  input {
+ padding: 10px;
+    width: 100%;
+    color: #285399;
+
+  }
+  .tab {
+    display: none;
+  }
+  
+  button {
+    /* background-color: #e9ecef; */
+    background-image: linear-gradient(to left ,#285399, #abbbdb );
+    color:#fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    font-size: 17px;
+    margin-top: 30px;
+    cursor: pointer;
+    border-radius: 10px;
+  } 
+  button:hover
+  {
+    background-image: linear-gradient(to right ,#285399, #abbbdb );
+      transform: scale(1.1,1.1);
+      transition: 1s;
+      color: #ffffff;
+  }
+
+  @media(max-width:600px)
+  {
+    #img
+    {
+      max-width: 50%;
+    }
+   #nextBtn,#prevBtn
+    {
+      max-width: 50%;
+      font-size: 15px;
+      padding: 7px;
+    }
+  }
